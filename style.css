@@ -90,13 +90,12 @@ body{
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .nav-links li a {
   text-decoration: none;
   color: var(--title-color);
-  font-weight: bold;
   transition: color 0.3s ease;
 }
 
