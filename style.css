@@ -42,6 +42,9 @@ body{
   background: var(--white-color);
   padding: 1rem 2rem;
   border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo-section {
@@ -49,6 +52,9 @@ body{
   align-items: center;
   position: sticky;
   gap: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
