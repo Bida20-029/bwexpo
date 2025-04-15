@@ -137,7 +137,7 @@ body{
 /* HERO SECTION WITH BACKGROUND IMAGE */
 /* HERO SECTION WITH BACKGROUND IMAGE */
 .hero-section {
-  background-image: url('../image27.jpeg'); /* Change path if needed */
+  background-image: url('image27.jpeg'); /* Change path if needed */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
