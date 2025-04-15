@@ -58,7 +58,7 @@ body{
 }
 
 .divider {
-  width: 2px;
+  width: 1px;
   height: 60px;
   background-color: var(--border-color);
 }
