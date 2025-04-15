@@ -91,6 +91,16 @@ function arrangeInArc() {
 
 document.addEventListener("DOMContentLoaded", arrangeInArc);
 
+function toggleOverlay(item) {
+  // Close all other overlays
+  document.querySelectorAll('.circle-item.active').forEach(el => {
+    if (el !== item) el.classList.remove('active');
+  });
+  // Toggle current one
+  item.classList.toggle('active');
+}
+
+
 
 // ===============================
 // BACK TO TOP BUTTON
