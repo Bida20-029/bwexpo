@@ -43,14 +43,12 @@ body{
   padding: 1rem 2rem;
   border-bottom: 1px solid var(--border-color);
   top: 0;
-  z-index: 1000;
 }
 
 .logo-section {
   display: flex;
   align-items: center;
-  position: sticky;
-  gap: 1rem;
+  gap: 0.1rem;
   top: 0;
   z-index: 1000;
 }
