@@ -171,3 +171,12 @@ document.addEventListener("DOMContentLoaded", () => {
   showEventSlides(eventSlideIndex);
   autoEventSlide();
 });
+
+function toggleOverlay(item) {
+  // Close all other overlays
+  document.querySelectorAll('.active').forEach(el => {
+    if (el !== item) el.classList.remove('active');
+  });
+  // Toggle this one
+  item.classList.toggle('active');
+}
