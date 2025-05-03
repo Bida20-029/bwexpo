@@ -14,31 +14,30 @@
 <body>
   <div class="container">
     <!-- Top Bar -->
-    <header class="top-bar">
-      <div class="logo-section">
-        <img src="logo.jpg" alt="Food Expo Logo" class="logo" />
-        <div class="divider"></div> 
-        <h1>EXPLORE . TASTE . LOOK . EXPERIENCE</h1>
+    <header class="site-header">
+      <div class="logo-title">
+        <img src="assets/img/logo.jpg" alt="Food Expo Botswana Logo" class="logo" />
+        <h1>Food Expo Botswana</h1>
       </div>
-      <div class="auth-links">
-        <a href="#">Login</a>
-        <a href="#">SignUp</a>
-      </div>
-    </header>
-
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <div class="menu-toggle" id="menu-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#exhibit-section">Exhibit</a></li>
-        <li><a href="#explore">Explore</a></li>
-        <li><a href="#shareholders">Stakeholders</a></li>
-        <li><a href="#features">Event</a></li>
+    
+      <!-- Dropdown Icon -->
+        <div class="dropdown-icon" onclick="toggleDropdown()">
+          &#9776;
+        </div>
+      
+    
+      <!-- Dropdown Menu -->
+      <ul class="dropdown-menu" id="dropdownMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#exhibit">Exhibit</a></li>
+        <li><a href="#tickets-venue">Tickets & Venue</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
+    </header>
+    
 
     <!-- Intro Paragraph -->
 
@@ -49,58 +48,258 @@
           <br>
           <span class="text-white">Food And Drinks Products Solutions</span>
         </h1>
-        <p>The Botswana Food Expo is a premier platform that brings together top local brands, industry experts, and food enthusiasts to showcase the latest culinary trends, foster business networking, and share market insights.</p>
+        <p><i>Empowering Botswana’s Food Sector Through Innovation,Enterprise & Sustainability</i></p>
+        <br>
+        <p>Dates from <i>31 July - 2 August 2025 | Gaborone</i></p>
       </div>
       <div class="hero-buttons">
-        <a href="#" class="btn primary">Get Tickets</a>
-        <a href="#" class="btn secondary">Become a Vendor</a>
+        <a href="assets/forms/updates.html" class="btn primary">Register for Updates</a>
+        <a href="assets/forms/bookex.html" class="btn secondary">Book Exhibition Space</a>
+        <a href="assets/forms/sponsor.html" class="btn secondary">Become a Sponsor</a>
+      </div>
+    </section>
+
+    <section id="stats" class="quick-stats-section">
+      <div class="container">
+        <h2 class="section-title">Quick Stats</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>1,500+</h3>
+            <p>Attendees Expected</p>
+          </div>
+          <div class="stat-card">
+            <h3>3 Days</h3>
+            <p>Insights, Innovation & Interaction</p>
+          </div>
+        </div>
+    
+        <div class="social-media">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">About the Food Expo</h2>
+        <p class="about-intro">
+          The Food Expo is Botswana’s first large-scale expo dedicated to transforming the food sector through innovation, enterprise, and collaboration.
+        </p>
+        
+        <div class="about-goals">
+          <h3 class="goals-title">The event aims to:</h3>
+          <ul class="goals-list">
+            <li>Promote local production and reduce food imports</li>
+            <li>Catalyze value chain growth</li>
+            <li>Build resilience through sustainable food systems</li>
+            <li>Support youth, women, and food-entrepreneurs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--Agenda Section-->
+
+    <section id="agenda" class="agenda-section">
+      <div class="agenda-heading">
+        <h2>Event Agenda</h2>
+        <p>Explore the highlights and key sessions planned for each day of the Botswana Food Expo 2025.</p>
+      </div>
+      
+      <div class="agenda-container">
+        <!-- Day 1 Card -->
+        <div class="agenda-card" onclick="toggleAgenda(this)" style="background-image: url('assets/img/industry\ foundations.jpg')">
+          <div class="card-overlay">
+            <h3>Day 1 – Industry Foundations</h3>
+            <p class="card-cta">Click here for more info</p>
+          </div>
+          <div class="agenda-details">
+            <ul>
+              <li>Panel 1: Building Botswana’s Food Sovereignty</li>
+              <li>Panel 2: Agro-Manufacturing and Value Addition</li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Day 2 Card -->
+        <div class="agenda-card" onclick="toggleAgenda(this)" style="background-image: url('assets/img/innovation.jpg')">
+          <div class="card-overlay">
+            <h3>Day 2 – Innovation & Sustainability</h3>
+            <p class="card-cta">Click here for more info</p>
+          </div>
+          <div class="agenda-details">
+            <ul>
+              <li>Panel 3: Financing for Agribusiness Startups</li>
+              <li>Panel 4: Trade & Market Access (AfCFTA)</li>
+              <li>Panel 5: Climate-Smart Agriculture</li>
+              <li>Panel 6: Food Safety & Nutrition</li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Day 3 Card -->
+        <div class="agenda-card" onclick="toggleAgenda(this)" style="background-image: url('assets/img/awards\ \(1\).jpg')">
+          <div class="card-overlay">
+            <h3>Day 3 – Showcase & Awards</h3>
+            <p class="card-cta">Click here for more info</p>
+          </div>
+          <div class="agenda-details">
+            <p class="card-cta">Click here for more info</p>
+            <ul>
+              <li>Panel 7: Digital Transformation</li>
+              <li>Panel 8: Youth & Women in Agribusiness</li>
+              <li><strong>Innovation Awards & Closing Ceremony</strong></li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Interactive Experiences Card -->
+        <div class="agenda-card" onclick="toggleAgenda(this)" style="background-image: url('assets/img/interactive\ experiences.jpg')">
+          <div class="card-overlay">
+            <h3>Interactive Experiences (Day 1–3)</h3>
+            <p class="card-cta">Click here for more info</p>
+          </div>
+          <div class="agenda-details">
+            <ul>
+              <li>Product & Taste Testing Booths</li>
+              <li>Live Demos: Processing, Packaging & Preservation</li>
+              <li>1-on-1 Exhibitor-Buyer Sessions</li>
+              <li>B2B Networking</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
     
+    
 
-    <!-- EXHIBIT SECTION -->
+    <section id="speakers" class="speakers-section">
+      <div class="container">
+        <h2 class="section-title">Featured Speakers & Panelists</h2>
+        <div class="speakers-grid">
+          <!-- Speaker 1 -->
+          <div class="speaker-card">
+            <img src="images/speaker1.jpg" alt="Speaker 1">
+            <div class="speaker-info">
+              <h4>Dr. Naledi Kgafela</h4>
+              <p>Food Security Expert</p>
+              <div class="speaker-bio">With 15+ years in food policy, Dr. Kgafela is leading Botswana’s national food strategy.</div>
+            </div>
+          </div>
+    
+          <!-- Speaker 2 -->
+          <div class="speaker-card">
+            <img src="images/speaker2.jpg" alt="Speaker 2">
+            <div class="speaker-info">
+              <h4>Thabo Motsumi</h4>
+              <p>Agri-Tech Entrepreneur</p>
+              <div class="speaker-bio">Founder of SmartFarm Africa, championing digital transformation in farming.</div>
+            </div>
+          </div>
+    
+          <!-- Speaker 3 -->
+          <div class="speaker-card">
+            <img src="images/speaker3.jpg" alt="Speaker 3">
+            <div class="speaker-info">
+              <h4>Lesego Dube</h4>
+              <p>Nutritionist & Author</p>
+              <div class="speaker-bio">Advocating for better nutrition through sustainable local diets.</div>
+            </div>
+          </div>
+    
+          <!-- Add more speakers as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!--Exhibit Section-->
+
+    <section id="exhibit" class="exhibit-section">
+      <div class="container">
+        <h2 class="section-title">Exhibit at Food Expo Botswana</h2>
+        <p class="exhibit-intro">Showcase your products, technologies, and services to a wide audience of buyers, entrepreneurs, and stakeholders from across the food value chain.</p>
+    
+        <div class="exhibitor-categories">
+          <h3>Exhibitor Categories</h3>
+          <ul class="category-list">
+            <li>1. Food & Beverage Producers</li>
+            <li>2. Processing Equipment & Machinery</li>
+            <li>3. Packaging Solutions</li>
+            <li>4. Agri-Tech & Smart Farming Tools</li>
+            <li>5. Financial Services</li>
+            <li>6. Research & Sustainability Solutions</li>
+            <li>7. Startups & Youth Enterprises</li>
+          </ul>
+        </div>
+    
+        <div class="exhibit-pricing">
+          <h3>Booth Pricing</h3>
+          <ul class="pricing-list">
+            <li><strong>Youth / Start-Up:</strong> P1,000</li>
+            <li><strong>Corporate / Government:</strong> P5,000</li>
+            <li><strong>NGOs & Associations:</strong> Special Packages Available</li>
+          </ul>
+        </div>
+    
+        <div class="exhibit-actions">
+          <a href="assets/forms/bookex.html" class="cta-button secondary">📩 Book Your Booth</a>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+
+    <!-- EXHIBIT SECTION 
     <section id="exhibit-section" class="page-section">
       <div class="slideshow-container">
-        <!-- Slide 1 -->
+          Slide 1 
         <div class="slide fade">
-          <img src="Analytics for Measuring SEO Success.jpg" alt="Slide 1" />
+          <img src="assets/img/Analytics for Measuring SEO Success.jpg" alt="Slide 1" />
           <h2 class="slide-title">Why Exhibit</h2>
           <div class="caption">Launch to new markets and establish new business connections.</div>
         </div>
     
-        <!-- Slide 2 -->
+          Slide 2 
         <div class="slide fade">
-          <img src="Explore.jpg" alt="Slide 2" />
+          <img src="assets/img/Explore.jpg" alt="Slide 2" />
           <h2 class="slide-title">Why Exhibit</h2>
           <div class="caption">Explore, experience and insights with local and international proffessionals</div>
         </div>
     
-        <!-- Slide 3 -->
+          Slide 3
         <div class="slide fade">
-          <img src="Handshake of farmer and customer at farmers market Business concept Generative AI _ Premium AI-generated image.jpg" alt="Slide 3" />
+          <img src="assets/img/Handshake of farmer and customer at farmers market Business concept Generative AI _ Premium AI-generated image.jpg" alt="Slide 3" />
           <h2 class="slide-title">Why Exhibit</h2>
           <div class="caption">Linking farmers to the market</div>
         </div>
 
-        <!-- Slide 3 -->
+        Slide 3 
         <div class="slide fade">
-          <img src="Background.jpg" alt="Slide 4" />
+          <img src="assets/img/Background.jpg" alt="Slide 4" />
           <h2 class="slide-title">Why Exhibit</h2>
           <div class="caption">Promotion of local to international markets</div>
         </div>
     
-        <!-- CTA Buttons -->
+          CTA Buttons
         <div class="slide-buttons">
           <button class="cta-btn">Become an Exhibitor</button>
           <button class="cta-btn">Register to Visit</button>
         </div>
     
-        <!-- Controls -->
+          Controls
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
     
-      <!-- Dots 
+      <!- Dots 
       <div class="dots-container">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
@@ -108,256 +307,21 @@
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
     </section> -->
-        
-    <!-- EXPLORE SECTION -->
-<section id="explore" class="explore-section">
-  <h2>Explore Food Categories!</h2>
-  <div class="circle-grid">
 
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('image25.jpeg');"></div>
-      <span class="activity-label">Heritage</span>
-      <div class="circle-overlay">
-        <p>Sample local dishes such as:</p>
-        <ul>
-          <li>Lerotse</li>
-          <li>Seswaa</li>
-          <li>Morogo wa dinawa</li>
-          <li>and more...</li>
-        </ul>
-      </div>
-    </div>
+    <!--Quick Stats-->
 
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('2844e59b-90f6-4dd6-9998-831d199ef8a7.jpg');"></div>
-      <span class="activity-label">Poultry</span>
-      <div class="circle-overlay">
-        <p>Sample some of the best poultry products.</p>
-      </div>
-    </div>
+    <!--About-->
 
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('Dairy\ Delights\ Collection\ Product\,\ Dairy\ Products\,\ Milk\,\ Cheese\ PNG\ Transparent\ Image\ and\ Clipart\ for\ Free\ Download.jpg');"></div>
-      <span class="activity-label">Dairy</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Milk</li>
-          <li>Cheese</li>
-          <li>Yoghurt</li>
-          <li>Cream</li>
-        </ul>
-      </div>
-    </div>
+    <!--Agenda-->
 
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('img586.jpg');"></div>
-      <span class="activity-label">Sauces</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Chakalaka</li>
-          <li>Beetroot</li>
-          <li>Archar</li>
-        </ul>
-      </div>
-    </div>
+    <!--Speakers-->
 
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('image19.jpeg');"></div>
-      <span class="activity-label">Snacks</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Chips</li>
-          <li>Sweets</li>
-          <li>And more...</li>
-        </ul>
-      </div>
-    </div>
+    <!--Exhibit-->
 
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('img434.jpg');"></div>
-      <span class="activity-label">Spices</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Chillies</li>
-          <li>Meat spices</li>
-          <li>And more...</li>
-        </ul>
-      </div>
-    </div>
+    <!--Quick Stats-->
 
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('img433.jpg');"></div>
-      <span class="activity-label">Meat</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Boerewors</li>
-          <li>Russian</li>
-          <li>Mince</li>
-          <li>Patties</li>
-        </ul>
-      </div>
-    </div>
+    <!--Shareholders Section-->
 
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('Sweet\ Treat_\ Ladurée\ Florals\ -\ York\ Avenue.jpg');"></div>
-      <span class="activity-label">Confectionary</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Loaf</li>
-          <li>Cakes</li>
-          <li>Scones</li>
-          <li>Muffins</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('img435.jpg');"></div>
-      <span class="activity-label">Hot Beverages</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Coffee/li>
-          <li>Tea</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('Store-Bought\ Keto\ Cereal.jpg');"></div>
-      <span class="activity-label">Cereals</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Explore some of the best, locally produced cereals</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('img511.jpg');"></div>
-      <span class="activity-label">Grains</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Lentils</li>
-          <li>Beans</li>
-          <li>Cow Peas</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('Peach\ Iced\ Tea.jpg');"></div>
-      <span class="activity-label">Cold Beverages</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Juice</li>
-          <li>Fizzy</li>
-          <li>Alcohol</li>
-          <li>Traditional</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('img513.jpg');"></div>
-      <span class="activity-label">Natural Organics</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Find some of the best organic, locally grown, dofy fueling goods!</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('img585.jpg');"></div>
-      <span class="activity-label">Fats and Oils</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Chakalaka</li>
-          <li>Beetroot</li>
-          <li>Archar</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('img587.jpg');"></div>
-      <span class="activity-label">Health & Wellness</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>Find some of the best health and fitness finds!</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="circle-item" onclick="toggleOverlay(this)">
-      <div class="circle-img" style="background-image: url('img588.jpg');"></div>
-      <span class="activity-label">Packagings</span>
-      <div class="circle-overlay">
-        <ul>
-          <li>High quaity, locally made packagings!</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- Event Features Section -->
-<section id="event-features" class="event-features-section">
-  <div class="container">
-    <h2 class="section-title">Event Features</h2>
-    <div class="feature-list">
-      
-      <!-- Panel Discussions -->
-      <div class="feature-cylinder group" onclick="toggleOverlay(this)">
-        <i class="lucide lucide-users icon"></i>
-        <h3>Panel Discussions</h3>
-        <div class="feature-overlay">
-          Engage in thought-provoking talks and insights from industry experts.
-        </div>
-      </div>
-
-      <!-- Stall Exhibitions -->
-      <div class="feature-cylinder group" onclick="toggleOverlay(this)">
-        <i class="lucide lucide-store icon"></i>
-        <h3>Stall Exhibitions</h3>
-        <div class="feature-overlay">
-          Explore vibrant stalls showcasing a variety of local food products.
-        </div>
-      </div>
-
-      <!-- Award Ceremony -->
-      <div class="feature-cylinder group" onclick="toggleOverlay(this)">
-        <i class="lucide lucide-award icon"></i>
-        <h3>Award Ceremony</h3>
-        <div class="feature-overlay">
-          Celebrate excellence with awards for innovation and presentation.
-        </div>
-      </div>
-
-      <!-- Food & Drink Tasting -->
-      <div class="feature-cylinder group" onclick="toggleOverlay(this)">
-        <i class="lucide lucide-wine icon"></i>
-        <h3>Tastings</h3>
-        <div class="feature-overlay">
-          Indulge in delicious samples of food and beverages from local vendors.
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- Lucide Icons -->
-<script src="https://unpkg.com/lucide@latest"></script>
-<script>
-  lucide.createIcons();
-</script>
-
-
-
-    
-    
     <section id="shareholders" class="partners-section">
       <h2>Our Partners and Vendors</h2>
       <h3>Supporters and brands!</h3>
@@ -369,21 +333,57 @@
       <button class="vendor-button">--&gt; Become a Vendor</button>
       
       <div class="partner-logos">
-        <div class="partner-logo"><img src="image12.png" alt="Ministry of Agriculture" /></div>
-        <div class="partner-logo"><img src="image6.jpeg" alt="Food and Agriculture Organization" /></div>
-        <div class="partner-logo"><img src="buan.jpg" alt="BUAN" /></div>
-        <div class="partner-logo"><img src="image11.jpeg" alt="NARDI" /></div>
-        <div class="partner-logo"><img src="image9.jpeg" alt="BAMB" /></div>
-        <div class="partner-logo"><img src="image8.jpeg" alt="BMC" /></div>
-        <div class="partner-logo"><img src="image7.jpeg" alt="BVI" /></div>
-        <div class="partner-logo"><img src="image2.jpeg" alt="CEDA" /></div>
-        <div class="partner-logo"><img src="image5.jpeg" alt="BOBS" /></div>
-        <div class="partner-logo"><img src="image4.jpeg" alt="LEA" /></div>
-        <div class="partner-logo"><img src="image3.jpeg" alt="BITC" /></div>
-        <div class="partner-logo"><img src="image1.jpeg" alt="BDC" /></div>
+        <div class="partner-logo"><img src="assets/img/image12.png" alt="Ministry of Agriculture" /></div>
+        <div class="partner-logo"><img src="assets/img/image6.jpeg" alt="Food and Agriculture Organization" /></div>
+        <div class="partner-logo"><img src="assets/img/buan.jpg" alt="BUAN" /></div>
+        <div class="partner-logo"><img src="assets/img/image11.jpeg" alt="NARDI" /></div>
+        <div class="partner-logo"><img src="assets/img/image9.jpeg" alt="BAMB" /></div>
+        <div class="partner-logo"><img src="assets/img/image8.jpeg" alt="BMC" /></div>
+        <div class="partner-logo"><img src="assets/img/image7.jpeg" alt="BVI" /></div>
+        <div class="partner-logo"><img src="assets/img/image2.jpeg" alt="CEDA" /></div>
+        <div class="partner-logo"><img src="assets/img/image5.jpeg" alt="BOBS" /></div>
+        <div class="partner-logo"><img src="assets/img/image4.jpeg" alt="LEA" /></div>
+        <div class="partner-logo"><img src="assets/img/image3.jpeg" alt="BITC" /></div>
+        <div class="partner-logo"><img src="assets/img/image1.jpeg" alt="BDC" /></div>
       </div>
     </section>
+
+    <!--Tickets info Section-->
+
+    <section id="tickets-venue" class="tickets-venue-section">
+      <div class="container">
     
+        <h2 class="section-title">Tickets & Venue Info</h2>
+    
+        <div class="info-cards">
+    
+          <!-- Tickets Card -->
+          <div class="info-card">
+            <h3>🎟️ Tickets</h3>
+            <p><strong>Buy Tickets Now:</strong> <span class="ticket-price">P200</span></p>
+            <p>Secure your entry to Botswana’s largest food expo. Limited slots available.</p>
+            <p><strong>Payment & Refund Policy:</strong> Tickets are non-refundable once purchased. Payment available via EFT and mobile money.</p>
+            <a href="#buy-tickets" class="cta-button">Buy Tickets</a>
+          </div>
+    
+          <!-- Venue Card -->
+          <div class="info-card">
+            <h3>📍 Venue</h3>
+            <p><strong>Location:</strong> Gaborone (Exact venue to be confirmed)</p>
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3626.5206474185766!2d25.874043975216477!3d-24.64020107807371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb5b3125c0aa99%3A0xf13c0eb8da87b4b5!2sGaborone%20International%20Conference%20Centre%20(GICC)!5e0!3m2!1sen!2sbw!4v1746308586156!5m2!1sen!2sbw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p><strong>Floor Plan:</strong> To be uploaded soon</p>
+            <p><strong>Accessibility:</strong> Wheelchair accessible, on-site support available</p>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section>
+
+
+    <!--Contact Section-->
     
     <section class="contact-section">
       <div class="contact-content">
@@ -401,8 +401,8 @@
         </div>
         
         <div class="contact-nav">
-          <a href="#">Become a Vendor</a>
-          <a href="#">Become an Exhibitor</a>
+          <a href="#">Register for updates</a>
+          <a href="#">Become Exhibition Space</a>
           <a href="#">Become a Sponsor</a>
           <a href="#">Email</a>
           <a href="#">Get Tickets</a>
@@ -410,11 +410,12 @@
       </div>
       
       <div class="sponsor-logos">
-        <img src="bw.jpg" alt="Botswana" />
-        <img src="kilowatt.jpg" alt="Kilowatt Media" />
-        <img src="logo.jpg" alt="Food Expo Logo" />
+        <img src="assets/img/bw.jpg" alt="Botswana" />
+        <img src="assets/img/kilowatt.jpg" alt="Kilowatt Media" />
+        <img src="assets/img/logo.jpg" alt="Food Expo Logo" />
       </div>
     </section>
+
   </div>
   
   <script src="script.js" defer></script>
@@ -422,6 +423,12 @@
   <script>
   lucide.createIcons();
   </script>
+
+  <!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
 
   <button id="backToTop" title="Back to top">
     ↑

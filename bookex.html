@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Book Exhibition Space</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        
+        <section class="form-section">
+            <h2>Book Your Exhibition Space</h2>
+            <form action="/submit-booking" method="POST" class="expo-form">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company">
+                
+                <label for="category">Exhibitor Category</label>
+                <select id="category" name="category">
+                    <option>Food & Beverage Producers</option>
+                    <option>Processing Equipment & Machinery</option>
+                    <option>Packaging Solutions</option>
+                    <option>Agri-Tech & Smart Farming Tools</option>
+                    <option>Financial Services</option>
+                    <option>Research & Sustainability Solutions</option>
+                    <option>Startups & Youth Enterprises</option>
+                </select>
+                
+                <label for="booth-type">Booth Type</label>
+                <select id="booth-type" name="booth_type">
+                    <option>Youth / Start-Up – P1000</option>
+                    <option>Corporate / Government – P5000</option>
+                    <option>NGO</option>
+                    <option>Association</option>
+                </select>
+                
+                <label for="notes">Additional Info (optional)</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+                
+                <button type="submit">Submit Booking</button>
+            </form>
+        </section>
+    </body>
+    </html>

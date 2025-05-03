@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Become a Sponsor</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    
+    <body>
+        <section class="form-section">
+            <h2>Become a Sponsor</h2>
+            <form action="/submit-sponsorship" method="POST" class="expo-form">
+                
+                <label for="sponsorName">Full Name *</label>
+                <input type="text" id="sponsorName" name="sponsorName" required />
+
+                <label for="organization">Organization / Company *</label>
+                <input type="text" id="organization" name="organization" required />
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required />
+
+                <label for="sponsorshipType">Sponsorship Type *</label>
+                <select id="sponsorshipType" name="sponsorshipType" required>
+                    <option value="">-- Select --</option>
+                    <option value="Platinum">Platinum Sponsor</option>
+                    <option value="Gold">Gold Sponsor</option>
+                    <option value="Silver">Silver Sponsor</option>
+                    <option value="Partner">Event Partner</option>
+                    <option value="In-kind">In-Kind Contributor</option>
+                </select>
+                
+                <label for="message">Tell Us Why You’d Like to Sponsor (Optional)</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                
+                <button type="submit">Submit Sponsorship Interest</button>
+            </form>
+        </section>
+    </body>
+    </html>
