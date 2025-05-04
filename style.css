@@ -234,7 +234,7 @@ h1 {
 /* HERO SECTION WITH BACKGROUND IMAGE */
 /* HERO SECTION WITH BACKGROUND IMAGE */
 .hero-section {
-  background-image: url('assets/img/ChatGPT Image May 4, 2025, 12_06_22 AM.png'); /* Change path if needed */
+  background-image: url('ChatGPT Image May 4, 2025, 12_06_22 AM.png'); /* Change path if needed */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
