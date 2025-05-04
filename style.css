@@ -1533,4 +1533,47 @@ h1 {
   background-color: #3e8e41;
 }
 
+/* General Mobile Adjustments */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dropdown {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    display: none;
+    background-color: #f9f9f9;
+  }
+
+  .dropdown-menu.show {
+    display: block;
+  }
+
+  .agenda-section h2 {
+    font-size: 24px;
+  }
+
+  .agenda-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .agenda-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .agenda-details {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
 
