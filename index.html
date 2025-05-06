@@ -14,27 +14,22 @@
 <body>
   <div class="container">
     <!-- Top Bar -->
-<header class="site-header">
-    <div class="logo-title-wrapper">
-      <img src="images/new-bfe-logo.png" alt="Botswana Food Expo Logo" class="site-logo" />
-      <div class="divider"></div>
-      <h1 class="site-title">Botswana Food Expo 2025</h1>
+<header>
+    <div class="branding">
+      <img src="logo.png" alt="Expo Logo" class="logo" />
+      <div class="event-details">
+        <h1>FOOD & AGRO PROCESSING EXPO BOTSWANA 2025</h1>
+        <p class="theme">"Innovating the Future of Food"</p>
+        <p>15 – 17 August 2025, Gaborone International Convention Centre (GICC)</p>
+      </div>
     </div>
-  
-    <nav class="navbar">
-      <input type="checkbox" id="menu-toggle" />
-      <label for="menu-toggle" class="menu-icon">&#9776;</label>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="agenda.html">Agenda</a></li>
-        <li><a href="speakers.html">Speakers</a></li>
-        <li><a href="exhibit.html">Exhibit</a></li>
-        <li><a href="sponsor.html">Sponsor</a></li>
-        <li><a href="tickets.html">Tickets</a></li>
-        <li><a href="venue.html">Venue</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <nav class="tabs">
+      <button class="tablinks active" onclick="openTab(event, 'agenda')">Agenda</button>
+      <button class="tablinks" onclick="openTab(event, 'tickets')">Tickets</button>
+      <button class="tablinks" onclick="openTab(event, 'exhibition')">Exhibition Space</button>
+      <button class="tablinks" onclick="openTab(event, 'speakers')">Speakers</button>
+      <button class="tablinks" onclick="openTab(event, 'sponsors')">Sponsors</button>
+      <button class="tablinks" onclick="openTab(event, 'contact')">Connect</button>
     </nav>
   </header>
     
