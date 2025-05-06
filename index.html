@@ -14,24 +14,29 @@
 <body>
   <div class="container">
     <!-- Top Bar -->
-<header>
-    <div class="branding">
-      <img src="logo.png" alt="Expo Logo" class="logo" />
-      <div class="event-details">
-        <h1>FOOD & AGRO PROCESSING EXPO BOTSWANA 2025</h1>
-        <p class="theme">"Innovating the Future of Food"</p>
-        <p>15 – 17 August 2025, Gaborone International Convention Centre (GICC)</p>
+<header class="site-header">
+      <div class="logo-title">
+        <img src="assets/img/logo.jpg" alt="Food Expo Botswana Logo" class="logo" />
+        <h1>Food Expo Botswana</h1>
       </div>
-    </div>
-    <nav class="tabs">
-      <button class="tablinks active" onclick="openTab(event, 'agenda')">Agenda</button>
-      <button class="tablinks" onclick="openTab(event, 'tickets')">Tickets</button>
-      <button class="tablinks" onclick="openTab(event, 'exhibition')">Exhibition Space</button>
-      <button class="tablinks" onclick="openTab(event, 'speakers')">Speakers</button>
-      <button class="tablinks" onclick="openTab(event, 'sponsors')">Sponsors</button>
-      <button class="tablinks" onclick="openTab(event, 'contact')">Connect</button>
-    </nav>
-  </header>
+    
+      <!-- Dropdown Icon -->
+        <div class="dropdown-icon" onclick="toggleDropdown()">
+          &#9776;
+        </div>
+      
+    
+      <!-- Dropdown Menu -->
+      <ul class="dropdown-menu" id="dropdownMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#exhibit">Exhibit</a></li>
+        <li><a href="#tickets-venue">Tickets & Venue</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
     
 
     <!-- Intro Paragraph -->
@@ -43,12 +48,14 @@
           <br>
           <span class="text-white">Food And Drinks Products Solutions</span>
         </h1>
-        <p><i>Join us at the Botswana Food Expo 2025 — where tradition meets innovation, flavors meet stories, and businesses thrive.</i></p>
+        <p><i>Empowering Botswana’s Food Sector Through Innovation,Enterprise & Sustainability</i></p>
         <br>
+        <p>Dates from <i>31 July - 2 August 2025 | Gaborone</i></p>
+      </div>
       <div class="hero-buttons">
-        <a href="updates.html" class="btn secondary">Register for Updates</a>
-        <a href="bookex.html" class="btn secondary">Book Exhibition Space</a>
-        <a href="sponsor.html" class="btn secondary">Become a Sponsor</a>
+        <a href="assets/forms/updates.html" class="btn primary">Register for Updates</a>
+        <a href="assets/forms/bookex.html" class="btn secondary">Book Exhibition Space</a>
+        <a href="assets/forms/sponsor.html" class="btn secondary">Become a Sponsor</a>
       </div>
     </section>
 
