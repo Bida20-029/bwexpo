@@ -14,31 +14,39 @@
 <body>
   <div class="container">
     <!-- Top Bar -->
-<header class="site-header">
-      <div class="logo-title">
+<header class="sticky-header">
+      <div class="branding">
         <img src="logo.jpg" alt="Food Expo Botswana Logo" class="logo" />
         <p><i>Empowering Botswana’s Food Sector Through Innovation,Enterprise & Sustainability</i></p>
         <br>
         <p>Dates from <i>31 July - 2 August 2025 | Gaborone</i></p>
       </div>
-    
-      <!-- Dropdown Icon -->
-        <div class="dropdown-icon" onclick="toggleDropdown()">
-          &#9776;
-        </div>
+  
+  
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="desktop-menu">
+        <button class="tablinks" onclick="openTab(event, 'home')">Home</button>
+        <button class="tablinks" onclick="openTab(event, 'agenda')">Event Agenda</button>
+        <button class="tablinks" onclick="openTab(event, 'exhibit')">Exhibit</button>
+        <button class="tablinks" onclick="openTab(event, 'sponsors')">Sponsors</button>
+        <button class="tablinks" onclick="openTab(event, 'tickets')">Tickets</button>
+        <button class="tablinks" onclick="openTab(event, 'contact')">Contact</button>
+      </div>
       
-    
-      <!-- Dropdown Menu -->
-      <ul class="dropdown-menu" id="dropdownMenu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#agenda">Agenda</a></li>
-        <li><a href="#speakers">Speakers</a></li>
-        <li><a href="#exhibit">Exhibit</a></li>
-        <li><a href="#tickets-venue">Tickets & Venue</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </header>
+      <select class="mobile-menu" onchange="openTabFromDropdown(this)">
+        <option value="">Navigate to...</option>
+        <option value="home">Home</option>
+        <option value="agenda">Event Agenda</option>
+        <option value="exhibit">Exhibit</option>
+        <option value="sponsors">Sponsors</option>
+        <option value="tickets">Tickets</option>
+        <option value="contact">Contact</option>
+      </select>
+    </div>
+  </nav>
+
+</header>
     
 
     <!-- Intro Paragraph -->
