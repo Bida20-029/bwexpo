@@ -39,5 +39,13 @@ function openTab(evt, tabName) {
       evt.currentTarget.classList.add("active");
     }
 
+function openTabFromDropdown(selectElement) {
+  const tabName = selectElement.value;
+  if (tabName) {
+    openTab(null, tabName);
+  }
+}
+
+
 
 
