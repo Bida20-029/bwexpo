@@ -434,6 +434,7 @@ body{
 }
 
 .agenda-card {
+  position: relative;
   background-size: cover;
   background-position: center;
   height: 300px;
