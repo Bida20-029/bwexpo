@@ -61,7 +61,6 @@ body{
 }
 
 .dropdown-icon {
-  display: none;
   font-size: 28px;
   cursor: pointer;
   color: #004203;
@@ -76,6 +75,7 @@ body{
 }
 
 .dropdown-menu {
+  position: fixed;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
