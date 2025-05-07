@@ -37,7 +37,7 @@ body{
 
 /* Header bar with logo and event info */
 .header-bar {
-  background-color: var(--primary-color);
+  background-color: white;
   color: white;
   padding: 20px;
 }
@@ -78,7 +78,7 @@ body{
 
 /* Navbar bar below header */
 .navbar {
-  background-color: var(--secondary-color);
+  background-color: white;
   padding: 10px 0;
   text-align: center;
 }
