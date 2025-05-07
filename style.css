@@ -155,7 +155,6 @@ body{
   text-align: center;
   color: white;
   position: relative;
-  padding-top: 50px;
 }
 
 .text-blue {
@@ -397,11 +396,10 @@ body{
   text-align: center;
   font-size: 2.5rem;
   color: #e50914;
-  margin-bottom: 30px;
 }
 
 .agenda-day, .interactive-experience {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .agenda-day h3,
