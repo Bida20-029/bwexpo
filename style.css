@@ -37,7 +37,7 @@ body{
 
 /* Header bar with logo and event info */
 .site-header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 1600px;
@@ -154,6 +154,7 @@ body{
   padding: 4rem 2rem;
   text-align: center;
   color: white;
+  position: relative;
 }
 
 .text-blue {
