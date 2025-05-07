@@ -37,7 +37,7 @@ body{
 
 /* Header bar with logo and event info */
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   width: 1600px;
@@ -80,7 +80,7 @@ body{
 }
 
 .dropdown-menu {
-  position: sticky;
+  position: flex;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -384,6 +384,7 @@ body{
   padding: 20px 20px;
   background-color: linear-gradient(to bottom right, #ffffff, #8dbbff);
   color: #222;
+  position: relative;
 }
 
 .agenda-section .container {
