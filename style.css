@@ -154,7 +154,6 @@ body{
   padding: 4rem 2rem;
   text-align: center;
   color: white;
-  position: relative;
 }
 
 .text-blue {
@@ -361,7 +360,6 @@ body{
   font-weight: 700;
   color:rgb(20, 78, 136);
   margin-bottom: 0.5rem;
-  position: relative;
 }
 
 .agenda-heading h2::after {
