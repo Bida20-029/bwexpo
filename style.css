@@ -38,9 +38,15 @@ body{
 /* Header bar with logo and event info */
 .site-header {
   position: fixed;
-  background-color: #ffffff98 ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff98;
   color: white;
   padding: 10px 20px;
+  z-index: 1000;
+  backdrop-filter: blur(10px); /* Optional: gives a frosted glass look */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional shadow for depth */
 }
 
 .logo-title {
