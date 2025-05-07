@@ -155,7 +155,6 @@ body{
   padding: 4rem 2rem;
   text-align: center;
   color: white;
-  padding-top: 30px;
 }
 
 .text-blue {
@@ -168,7 +167,6 @@ body{
 
 .hero-section::before {
   content: "";
-  /*position: absolute;*/
   inset: 0;
   background: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
   z-index: 0;
@@ -224,7 +222,7 @@ body{
 
 .btn.secondary {
   background-color: white;
-  color: #2d73b9;
+  color: #057015;
   border: 2px solid #057015;
 }
 
