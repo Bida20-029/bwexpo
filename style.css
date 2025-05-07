@@ -964,6 +964,7 @@ body{
   max-width: 700px;
   margin: 0 auto 2rem auto;
   font-weight: 300;
+  top: 30px;
 }
 
 .vendor-button {
