@@ -35,16 +35,9 @@ body{
   padding: 1rem;
 }
 
-.sticky-wrapper {
-  position: sticky;
-  top: 0;
-  z-index: 9999;
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-}
-
 /* Header bar with logo and event info */
 .site-header {
+  position: fixed;
   background-color: #ffffff98 ;
   color: white;
   padding: 10px 20px;
