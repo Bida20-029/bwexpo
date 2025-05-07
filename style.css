@@ -40,7 +40,7 @@ body{
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1600px;
   background-color: #fff;
   padding: 10px 20px;
 }
@@ -80,7 +80,7 @@ body{
 }
 
 .dropdown-menu {
-  position: fixed;
+  position: sticky;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
