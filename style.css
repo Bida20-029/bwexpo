@@ -212,7 +212,7 @@ body{
 }
 
 .btn.primary {
-  background-color: #1669f9; /* Tailwind orange-500 */
+  background-color: #057015; /* Tailwind orange-500 */
   color: white;
 }
 
@@ -223,7 +223,7 @@ body{
 .btn.secondary {
   background-color: white;
   color: #2d73b9;
-  border: 2px solid #002d4d;
+  border: 2px solid #057015;
 }
 
 .btn.secondary:hover {
@@ -431,7 +431,6 @@ body{
 }
 
 .agenda-card {
-  position: relative;
   background-size: cover;
   background-position: center;
   height: 300px;
