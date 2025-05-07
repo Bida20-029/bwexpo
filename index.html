@@ -13,26 +13,35 @@
 </head>
 <body>
   <div class="container">
-    <!-- Top Bar -->
-<!-- HEADER: Logo, Theme, Date, Venue -->
-<header class="header-bar">
-  <div class="branding">
-    <img src="logoexpo.jpg" alt="Food Expo Logo" class="logo" />
-    <div class="event-details">
-      <div class="date-venue">20 - 22 August 2025 | Gaborone International Convention Centre</div>
+    <div class="sticky-wrapper">
+      
+      <header class="site-header">
+        <div class="logo-title">
+          <img src="assets/img/logo.jpg.png" alt="Food Expo Botswana Logo" class="logo" />
+          <div class="title-and-details">
+            <h1 class="event-info">20 – 22 August 2025 | Gaborone International Convention Centre</h1>
+          </div>
+        </div>
+        
+        <!-- Dropdown Icon -->
+        <div class="dropdown-icon" onclick="toggleDropdown()">
+          &#9776;
+        </div>
+        
+        <!-- Dropdown Menu -->
+        <nav class="dropdown-nav">
+          <ul class="dropdown-menu" id="dropdownMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#exhibit">Exhibit</a></li>
+            <li><a href="#tickets-venue">Tickets & Venue</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
     </div>
-  </div>
-</header>
-
-<!-- NAVBAR: Below header -->
-<nav class="navbar">
-  <div class="desktop-menu">
-    <button class="tablinks" onclick="openTab(event, '#home')">Home</button>
-    <button class="tablinks" onclick="openTab(event, '#agenda')">Event Agenda</button>
-    <button class="tablinks" onclick="openTab(event, '#exhibit')">Exhibit</button>
-    <button class="tablinks" onclick="openTab(event, '#sponsors')">Sponsors</button>
-    <button class="tablinks" onclick="openTab(event, '#tickets')">Tickets</button>
-    <button class="tablinks" onclick="openTab(event, '#contact')">Contact</button>
   </div>
 
     <!-- Intro Paragraph -->
