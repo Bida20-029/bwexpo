@@ -37,7 +37,7 @@ body{
 
 /* Header bar with logo and event info */
 .site-header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
