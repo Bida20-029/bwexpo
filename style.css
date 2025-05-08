@@ -1284,7 +1284,7 @@ body{
 .footer-left h1 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #cbe3ff;
+  color: blue;
 }
 
 .social-icons a {
@@ -1315,7 +1315,7 @@ body{
 
 .footer-links li i {
   margin-right: 10px;
-  color: #057015;
+  color: #fff;
 }
 
 .footer-links a {
