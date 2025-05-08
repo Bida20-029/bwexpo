@@ -1284,13 +1284,13 @@ body{
 .footer-left h1 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: blue;
+  color: #cbe3ff;
 }
 
 .social-icons a {
   font-size: 1.5rem;
   margin-right: 15px;
-  color: blue;
+  color: #fff;
   transition: color 0.3s ease;
 }
 
