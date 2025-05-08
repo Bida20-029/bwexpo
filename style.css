@@ -1277,7 +1277,7 @@ body{
 }
 
 .footer-left h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 5px;
 }
 
@@ -1290,7 +1290,7 @@ body{
 .social-icons a {
   font-size: 1.5rem;
   margin-right: 15px;
-  color: #057015;
+  color: green;
   transition: color 0.3s ease;
 }
 
@@ -1310,7 +1310,7 @@ body{
 
 .footer-links li {
   margin-bottom: 12px;
-  font-size: 1rem;
+  font-size: 1.8rem;
 }
 
 .footer-links li i {
