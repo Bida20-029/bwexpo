@@ -1309,6 +1309,7 @@ body{
 }
 
 .footer-links li {
+  color: #fff;
   margin-bottom: 12px;
   font-size: 1.5rem;
 }
