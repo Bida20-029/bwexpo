@@ -1026,6 +1026,7 @@ body{
   padding: 4rem 2rem;
   background: linear-gradient(to bottom right, #ffffff, #8dbbff);
   color: #002244;
+  padding-bottom: 20px;
 }
 
 .partners-section h2 {
@@ -1041,7 +1042,7 @@ body{
 }
 
 .partners-section p {
-  font-size: 2rem;
+  font-size: 3rem;
   color: black;
   max-width: 700px;
   margin: 0 auto 2rem auto;
