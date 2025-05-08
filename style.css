@@ -1260,7 +1260,7 @@ body{
 /*ContactUs Section*/
 
 .footer-section {
-  background-color: linear-gradient(to bottom right, #689dec, #4a92ff);
+  background: linear-gradient(to bottom right, #689dec, #4a92ff);
   padding: 50px 20px 30px;
   color: linear-gradient(to bottom right, #689dec, #4a92ff);
   border-top: 3px solid var(--border-color);
