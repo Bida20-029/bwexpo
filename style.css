@@ -231,6 +231,38 @@ body{
   margin-top: 140px;
 }
 
+.highlight-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.highlight-line {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  border-radius: 6px;
+  color: #000;
+  margin: 5px 0;
+}
+
+.green-bg {
+  background-color: #c6f79e; /* soft green */
+}
+
+.yellow-bg {
+  background-color: #fff6a1; /* pastel yellow */
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #057015;
+  margin-top: 10px;
+}
+
+
 .text-blue {
   color: #fff; /*Tailwind blue-500 */
   background-color: green;
