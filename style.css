@@ -243,7 +243,7 @@ body{
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3); /* Dark overlay for contrast */
+  background: rgba(0, 0, 0, 0.4); /* Dark overlay for contrast */
   z-index: 0;
 }
 
