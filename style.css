@@ -232,7 +232,7 @@ body{
 }
 
 .text-blue {
-  color: #1059c0; /* Tailwind blue-500 */
+  color: #009000; /* Tailwind blue-500 */
 }
 
 .text-white {
@@ -243,7 +243,7 @@ body{
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
+  background: rgba(0, 0, 0, 0.3); /* Dark overlay for contrast */
   z-index: 0;
 }
 
