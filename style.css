@@ -254,11 +254,18 @@ body{
   background-color: #fff6a1; /* pastel yellow */
 }
 
+.blue-bg {
+  background-color: #d0e8ff; /* soft blue */
+}
+
 .tagline {
-  text-align: center;
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  border-radius: 6px;
   font-size: 1.2rem;
   font-style: italic;
-  color: #057015;
+  color: #03466c;
+  text-align: center;
   margin-top: 10px;
 }
 
