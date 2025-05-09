@@ -264,7 +264,7 @@ body{
   border-radius: 6px;
   font-size: 1.2rem;
   font-style: italic;
-  color: #03466c;
+  color: #000;
   text-align: center;
   margin-top: 10px;
 }
@@ -282,7 +282,7 @@ body{
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4); /* Dark overlay for contrast */
+  background: rgba(0, 0, 0, 0.3); /* Dark overlay for contrast */
   z-index: 0;
 }
 
