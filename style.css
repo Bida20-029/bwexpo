@@ -258,9 +258,11 @@ body{
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 2rem;
+  background-color: blue;
 }
 
-.hero-section p {  
+.hero-section p { 
+  background-color: blue;
   font-size: 1.25rem;
   line-height: 1.6;
   margin: 0 auto;
