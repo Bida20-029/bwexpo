@@ -420,8 +420,8 @@ body{
 /*About Section*/
 
 .about-section {
-  padding: 60px 20px;
   background: linear-gradient(to bottom right, #ffffff, #c6f79e);
+  padding: 60px 20px;
   color: #333;
 }
 
