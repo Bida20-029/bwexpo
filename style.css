@@ -421,7 +421,7 @@ body{
 
 .about-section {
   padding: 60px 20px;
-  background-color: linear-gradient(to bottom right, #fff, #c6f79e);
+  background: linear-gradient(to bottom right, #ffffff, #c6f79e);
   color: #333;
 }
 
