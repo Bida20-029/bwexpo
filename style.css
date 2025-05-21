@@ -1116,8 +1116,8 @@ body{
 
 .partner-logo {
   flex: 0 0 auto;
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   background: white;
   display: flex;
