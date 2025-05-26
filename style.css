@@ -1566,6 +1566,20 @@ body{
   max-height: 120px;
   margin: 0 10px;
   object-fit: contain;
+  flex-shrink: 0; /* prevent shrinking */
+}
+
+.footer-logos {
+  display: flex;
+  overflow-x: auto; /* enable horizontal scrolling */
+  white-space: nowrap; /* keep logos in one line */
+  gap: 20px;
+  padding: 0 10px;
+}
+
+/* Optional: Hide scrollbar for cleaner look */
+.footer-logos::-webkit-scrollbar {
+  display: none;
 }
 
 @media (max-width: 768px) {
