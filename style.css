@@ -1569,7 +1569,7 @@ body{
   flex-shrink: 0; /* prevent shrinking */
 }
 
-.footer-logos {
+.endorsers {
   display: flex;
   overflow-x: auto; /* enable horizontal scrolling */
   white-space: nowrap; /* keep logos in one line */
@@ -1578,7 +1578,7 @@ body{
 }
 
 /* Optional: Hide scrollbar for cleaner look */
-.footer-logos::-webkit-scrollbar {
+.endorsers::-webkit-scrollbar {
   display: none;
 }
 
