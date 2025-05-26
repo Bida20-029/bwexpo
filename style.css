@@ -1549,21 +1549,21 @@ body{
 
 /* Sticky Footer */
 .sticky-footer {
-  position: fixed; /* Keep it fixed at the bottom */
+  position: sticky; /* Keep it fixed at the bottom */
   bottom: 0;
   left: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.95); /* Soft white background */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   padding: 0.5rem 1rem;
   box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000; /* Make sure it’s above everything else */
 }
 
 .sticky-footer .endorsers img {
-  max-height: 40px;
+  max-height: 120px;
   margin: 0 10px;
   object-fit: contain;
 }
