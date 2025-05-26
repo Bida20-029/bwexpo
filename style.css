@@ -1562,14 +1562,7 @@ body{
   z-index: 1000; /* Make sure it’s above everything else */
 }
 
-.sticky-footer .endorsers img {
-  max-height: 120px;
-  margin: 0 10px;
-  object-fit: contain;
-  flex-shrink: 0; /* prevent shrinking */
-}
-
-.endorsers {
+.footer-logos {
   display: flex;
   overflow-x: auto; /* enable horizontal scrolling */
   white-space: nowrap; /* keep logos in one line */
@@ -1577,8 +1570,14 @@ body{
   padding: 0 10px;
 }
 
+.footer-logos img {
+  height: 120px;
+  object-fit: contain;
+  flex-shrink: 0; /* prevent shrinking */
+}
+
 /* Optional: Hide scrollbar for cleaner look */
-.endorsers::-webkit-scrollbar {
+.footer-logos::-webkit-scrollbar {
   display: none;
 }
 
